@@ -13,6 +13,7 @@
 		E35435D52B2FEBBD00C15049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35435D32B2FEBBD00C15049 /* Main.storyboard */; };
 		E35435D72B2FEBBF00C15049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35435D62B2FEBBF00C15049 /* Assets.xcassets */; };
 		E35435DA2B2FEBBF00C15049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35435D82B2FEBBF00C15049 /* LaunchScreen.storyboard */; };
+		E35435E22B30045D00C15049 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35435E12B30045D00C15049 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E35435D62B2FEBBF00C15049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E35435D92B2FEBBF00C15049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E35435DB2B2FEBBF00C15049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35435E12B30045D00C15049 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E35435CD2B2FEBBD00C15049 /* AppDelegate.swift */,
 				E35435CF2B2FEBBD00C15049 /* SceneDelegate.swift */,
 				E35435D12B2FEBBD00C15049 /* ViewController.swift */,
+				E35435E12B30045D00C15049 /* OnboardingView.swift */,
 				E35435D32B2FEBBD00C15049 /* Main.storyboard */,
 				E35435D62B2FEBBF00C15049 /* Assets.xcassets */,
 				E35435D82B2FEBBF00C15049 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E35435D22B2FEBBD00C15049 /* ViewController.swift in Sources */,
+				E35435E22B30045D00C15049 /* OnboardingView.swift in Sources */,
 				E35435CE2B2FEBBD00C15049 /* AppDelegate.swift in Sources */,
 				E35435D02B2FEBBD00C15049 /* SceneDelegate.swift in Sources */,
 			);
