@@ -35,13 +35,11 @@ class TableViewCustomCell: UITableViewCell {
             deviceImageView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -12),
             deviceImageView.topAnchor.constraint(equalTo: topAnchor, constant: 12),
             deviceImageView.widthAnchor.constraint(equalToConstant: 40),
-            deviceImageView.heightAnchor.constraint(equalToConstant: 40),
-            
+       
             devicenNameLabel.leadingAnchor.constraint(equalTo: deviceImageView.trailingAnchor, constant: 20),
             devicenNameLabel.centerYAnchor.constraint(equalTo: deviceImageView.centerYAnchor),
-         
+
         ])
-    
     }
     
     required init?(coder: NSCoder) {
