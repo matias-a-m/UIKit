@@ -17,3 +17,9 @@ let house = [
     Devices(title: "iPad", imageName: "ipad"),
     Devices(title: "Macbook", imageName: "macbook")
 ]
+
+let work = [
+    Devices(title: "Macbook", imageName: "macbook")
+]
+
+let allDevices = [house, work]

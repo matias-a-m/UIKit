@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         let tableView = UITableView()
         
         // Inicialización de las instancias de origen de datos y delegado
-        self.dataSource = ViewControllerDataSource(dataSource: house)
+        self.dataSource = ViewControllerDataSource(dataSource: allDevices)
         self.delegate = ViewControllerDelegate()
         
         // Asignación del origen de datos y delegado a la nueva tabla
