@@ -13,6 +13,7 @@
 		E354361B2B3098D900C15049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35436192B3098D900C15049 /* Main.storyboard */; };
 		E354361D2B3098DC00C15049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E354361C2B3098DC00C15049 /* Assets.xcassets */; };
 		E35436202B3098DC00C15049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E354361E2B3098DC00C15049 /* LaunchScreen.storyboard */; };
+		E354362A2B30A1E000C15049 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35436292B30A1E000C15049 /* LabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E354361C2B3098DC00C15049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E354361F2B3098DC00C15049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E35436212B3098DC00C15049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35436292B30A1E000C15049 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E35436132B3098D900C15049 /* AppDelegate.swift */,
 				E35436152B3098D900C15049 /* SceneDelegate.swift */,
 				E35436172B3098D900C15049 /* ViewController.swift */,
+				E35436292B30A1E000C15049 /* LabelView.swift */,
 				E35436192B3098D900C15049 /* Main.storyboard */,
 				E354361C2B3098DC00C15049 /* Assets.xcassets */,
 				E354361E2B3098DC00C15049 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E35436182B3098D900C15049 /* ViewController.swift in Sources */,
+				E354362A2B30A1E000C15049 /* LabelView.swift in Sources */,
 				E35436142B3098D900C15049 /* AppDelegate.swift in Sources */,
 				E35436162B3098D900C15049 /* SceneDelegate.swift in Sources */,
 			);
