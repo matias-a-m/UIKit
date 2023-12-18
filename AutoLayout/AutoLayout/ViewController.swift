@@ -9,8 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // MARK: - Lifecycle Methods
-    
     // Se llama cuando la vista del controlador se carga por primera vez
     override func loadView() {
         // Asigna la instancia de OnboardingView como la vista principal del controlador
