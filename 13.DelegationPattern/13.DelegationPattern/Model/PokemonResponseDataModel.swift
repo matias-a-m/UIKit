@@ -7,11 +7,6 @@
 
 import Foundation
 
-struct PokemonDataModel: Decodable{
-    let name: String
-    let url: String
-}
-
 struct PokemonResponseDataModel: Decodable{
     let pokemons: [PokemonDataModel]
     

@@ -7,6 +7,10 @@
 
 import UIKit
 
+// charles o proximun
+// 4 capas de arquitectiura ios
+// media layer
+
 class ViewController2: UIViewController {
 
     let apiCliet: APIClient

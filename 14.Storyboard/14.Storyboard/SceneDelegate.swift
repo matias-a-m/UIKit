@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  13.DelegationPattern
+//  14.Storyboard
 //
-//  Created by matias on 21/12/2023.
+//  Created by matias on 22/12/2023.
 //
 
 import UIKit
@@ -10,6 +10,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
