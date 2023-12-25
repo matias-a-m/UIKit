@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func didTapOnButton(_ sender: Any) {
+        let viewController2 = ViewController2(nibName: "ViewController2", bundle: nil)
+        self.present(viewController2, animated: true)
+    }
+    
 }
 
